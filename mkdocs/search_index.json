@@ -1,0 +1,104 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome!\n\n\nWelcome to the official documentation for projects under development by \nOpen Bionics\n!\nHere you will find a variety of useful information. Whether you would like to contribute to the projects, or just want to see how they work, this is the place for you. If you need help building one of the projects or have any additional questions, head to the \nForum\n where active community members can help you out.\n\n\nSite Layout\n\n\nThe documentation is seperated into the following areas:\n\n\n\n\nHardware\n - PCB related information.\n\n\nFirmware\n - Code that makes the PCBs function.\n\n\nSoftware\n - Additional code that makes the firmware awesome.\n\n\n3D Printing\n - CAD files to make something physical.\n\n\n\n\nNote\n: If you are interested in contributing to the documentation, feel free to add your own information and submit a pull request to the Docs repo on our \nGithub\n! If, along the way, you happen to notice any errors with the documentation, please submit an issue \nhere\n.",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/#welcome",
+            "text": "Welcome to the official documentation for projects under development by  Open Bionics !\nHere you will find a variety of useful information. Whether you would like to contribute to the projects, or just want to see how they work, this is the place for you. If you need help building one of the projects or have any additional questions, head to the  Forum  where active community members can help you out.",
+            "title": "Welcome!"
+        },
+        {
+            "location": "/#site-layout",
+            "text": "The documentation is seperated into the following areas:   Hardware  - PCB related information.  Firmware  - Code that makes the PCBs function.  Software  - Additional code that makes the firmware awesome.  3D Printing  - CAD files to make something physical.   Note : If you are interested in contributing to the documentation, feel free to add your own information and submit a pull request to the Docs repo on our  Github ! If, along the way, you happen to notice any errors with the documentation, please submit an issue  here .",
+            "title": "Site Layout"
+        },
+        {
+            "location": "/hardware/almond/",
+            "text": "Almond PCB\n\n\nThe Almond PCB is the first revision of hardware, designed to be used with the \nAda Hand\n.",
+            "title": "Almond PCB"
+        },
+        {
+            "location": "/hardware/almond/#almond-pcb",
+            "text": "The Almond PCB is the first revision of hardware, designed to be used with the  Ada Hand .",
+            "title": "Almond PCB"
+        },
+        {
+            "location": "/hardware/chestnut/",
+            "text": "Chestnut PCB\n\n\nThe Chestnut PCB is the second revision of hardware, currently being designed to be used with the \nBrunel Hand\n.",
+            "title": "Chestnut PCB"
+        },
+        {
+            "location": "/hardware/chestnut/#chestnut-pcb",
+            "text": "The Chestnut PCB is the second revision of hardware, currently being designed to be used with the  Brunel Hand .",
+            "title": "Chestnut PCB"
+        },
+        {
+            "location": "/firmware/artichoke/",
+            "text": "Open Bionics - Artichoke\n\n\nOpen Bionics Robotics is the Open Source branch of the Open Bionics company.\n\n\nIncluded in this repository:\n\n\n\n\nArtichoke V1.2 - The firmware release for Open Bionics robotic hand kits, requires \nFingerLib.h",
+            "title": "Artichoke FW"
+        },
+        {
+            "location": "/firmware/artichoke/#open-bionics-artichoke",
+            "text": "Open Bionics Robotics is the Open Source branch of the Open Bionics company.  Included in this repository:   Artichoke V1.2 - The firmware release for Open Bionics robotic hand kits, requires  FingerLib.h",
+            "title": "Open Bionics - Artichoke"
+        },
+        {
+            "location": "/firmware/beetroot/",
+            "text": "Open Bionics - Beetroot (BETA)\n\n\nOpen Bionics Robotics is the Open Source branch of the Open Bionics company.\n\n\nIncluded in this repository:\n\n\n\n\nBeetroot V1.0 - The firmware release for Open Bionics Brunel hand & Chestnut PCB\n\n\n\n\nQuick Start\n\n\n1. Install \nArduino\n\n\n\n\nNavigate to the downloads page at \nArduino.cc\n\n\nDownload the latest version of the IDE (1.8.1 at time of writing)\n\n\nInstall Arduino\n\n\n\n\n2. Download \nBeetroot\n\n\n\n\nNavigate to the \nBeetroot repository\n\n\nDownload and extract the zip folder (Clone or download -> Download Zip)\n\n\nOpen the arduino file at \nBeetroot\\OpenBionics_Beetroot\\OpenBionics_Beetroot\\OpenBionics_Beetroot.ino\n\n\n\n\n3. Install \nFingerLib.h\n\n\n\n\nWithin Arduino, go to \nSketch -> Include Library -> Manage Libraries...\n\n\nSearch for \nFingerLib\n\n\nInstall \nFingerLib\n\n\n\n\n4. Install Chesnut board\n\n\n\n\nWithin Arduino, go to \nFile -> Preferences\n\n\nCopy the following URL https://open-bionics.github.io/package_openbionics_index.json\n\n\nPaste URL in \nAdditional Boards Manager URLs\n box\n\n\nOpen \nTools -> Board -> Boards Manager..\n\n\nSearch for \nOpen Bionics\n\n\nInstall the latest verison of the \nOpen Bionics Boards\n\n\nSelect \nTools -> Board -> Chestnut\n to select the Chestnut PCB\n\n\n\n\n5. Upload to the Brunel hand\n\n\n\n\nPlug the hand into the supplied 12V DC jack\n\n\nPlug the USB micro into the hand and the computer\n\n\nWithin Arduino, select \nTools -> Port -> COM## (Chestnut)\n (see \nhere\n for more details)\n\n\nSelect \nSketch -> Upload\n\n\n\n\n6. Use Beetroot\n\n\n\n\nAfter a successful upload, the hand will be flashing Orange (near the USB port)\n\n\nWithin Arduino, select \nTools -> Serial Monitor\n (the hand should now be flashing Green)\n\n\nOn the bottom right hand corner of the Serial Monitor window, make sure the dropdown box for the baud rate is set to \n115200 baud\n and set the other dropdown box to \nCarriage Return\n\n\nEnter \n?\n over the serial monitor to view the list of serial instructions",
+            "title": "Beetroot FW"
+        },
+        {
+            "location": "/firmware/beetroot/#open-bionics-beetroot-beta",
+            "text": "Open Bionics Robotics is the Open Source branch of the Open Bionics company.  Included in this repository:   Beetroot V1.0 - The firmware release for Open Bionics Brunel hand & Chestnut PCB",
+            "title": "Open Bionics - Beetroot (BETA)"
+        },
+        {
+            "location": "/firmware/beetroot/#quick-start",
+            "text": "1. Install  Arduino   Navigate to the downloads page at  Arduino.cc  Download the latest version of the IDE (1.8.1 at time of writing)  Install Arduino   2. Download  Beetroot   Navigate to the  Beetroot repository  Download and extract the zip folder (Clone or download -> Download Zip)  Open the arduino file at  Beetroot\\OpenBionics_Beetroot\\OpenBionics_Beetroot\\OpenBionics_Beetroot.ino   3. Install  FingerLib.h   Within Arduino, go to  Sketch -> Include Library -> Manage Libraries...  Search for  FingerLib  Install  FingerLib   4. Install Chesnut board   Within Arduino, go to  File -> Preferences  Copy the following URL https://open-bionics.github.io/package_openbionics_index.json  Paste URL in  Additional Boards Manager URLs  box  Open  Tools -> Board -> Boards Manager..  Search for  Open Bionics  Install the latest verison of the  Open Bionics Boards  Select  Tools -> Board -> Chestnut  to select the Chestnut PCB   5. Upload to the Brunel hand   Plug the hand into the supplied 12V DC jack  Plug the USB micro into the hand and the computer  Within Arduino, select  Tools -> Port -> COM## (Chestnut)  (see  here  for more details)  Select  Sketch -> Upload   6. Use Beetroot   After a successful upload, the hand will be flashing Orange (near the USB port)  Within Arduino, select  Tools -> Serial Monitor  (the hand should now be flashing Green)  On the bottom right hand corner of the Serial Monitor window, make sure the dropdown box for the baud rate is set to  115200 baud  and set the other dropdown box to  Carriage Return  Enter  ?  over the serial monitor to view the list of serial instructions",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/software/fingerlib/",
+            "text": "FingerLib\n\n\nDescription\n\n\nThis library can be used to control up to 6 fingers, which allows control for an Open Bionics robotic hand (\nAda\n, \nBrunel\n). Each finger is actuated using a Firgelli\nlinear actuator, where the position is determined by using the embedded linear potentiometer.\n\n\nFingerLib.h\n has been designed to closely resemble the Servo.h library, to allow ease of implementation for hobbyists and researchers.\n\n\nSupported Boards\n\n\n\n\nAlmond board\n\n\nChestnut board\n\n\nArduino UNO (Timer 1)\n\n\nAtmega2560 (Timer 5)\n\n\nArduino Zero (TC4)",
+            "title": "FingerLib SW"
+        },
+        {
+            "location": "/software/fingerlib/#fingerlib",
+            "text": "",
+            "title": "FingerLib"
+        },
+        {
+            "location": "/software/fingerlib/#description",
+            "text": "This library can be used to control up to 6 fingers, which allows control for an Open Bionics robotic hand ( Ada ,  Brunel ). Each finger is actuated using a Firgelli\nlinear actuator, where the position is determined by using the embedded linear potentiometer.  FingerLib.h  has been designed to closely resemble the Servo.h library, to allow ease of implementation for hobbyists and researchers.",
+            "title": "Description"
+        },
+        {
+            "location": "/software/fingerlib/#supported-boards",
+            "text": "Almond board  Chestnut board  Arduino UNO (Timer 1)  Atmega2560 (Timer 5)  Arduino Zero (TC4)",
+            "title": "Supported Boards"
+        },
+        {
+            "location": "/3Dprinting/ada/",
+            "text": "Ada Hand\n\n\nThe Ada hand is named after Ada Lovelace, \"the first computer programmer\".\nThis hand is not a prosthesis, it is intended as a development kit.\nComponents such as the circuit board and motors are available for purchase soon from \nOpen Bionics\n.",
+            "title": "Ada Hand"
+        },
+        {
+            "location": "/3Dprinting/ada/#ada-hand",
+            "text": "The Ada hand is named after Ada Lovelace, \"the first computer programmer\".\nThis hand is not a prosthesis, it is intended as a development kit.\nComponents such as the circuit board and motors are available for purchase soon from  Open Bionics .",
+            "title": "Ada Hand"
+        },
+        {
+            "location": "/3Dprinting/brunel/",
+            "text": "Brunel Hand\n\n\nThe Brunel hand is named after Isambard Kingdom Brunel, the man who revolutionized public transport and modern engineering.\nThe Brunel hand is not a prosthesis, it is intended as a development kit.\n\n\nThe Brunel Hand is a fully articulated robot hand from Open Bionics.  The hand has 9 degrees of freedom (DOF) and 4 degrees of actuation (DOA). It can be controlled from a PC or MAC over USB connection. The Brunel hand can be programmed using the Arduino programming environment which will be familiar to many developers.\n\n\nThe Brunel hand is perfect for anyone that is doing a project with robotic hands or wants a neat, light, and functional robotic hand for use with a humanoid robot. It's an excellent platform for research into prosthetics, object grasping and many human-robot-interaction applications.",
+            "title": "Brunel Hand"
+        },
+        {
+            "location": "/3Dprinting/brunel/#brunel-hand",
+            "text": "The Brunel hand is named after Isambard Kingdom Brunel, the man who revolutionized public transport and modern engineering.\nThe Brunel hand is not a prosthesis, it is intended as a development kit.  The Brunel Hand is a fully articulated robot hand from Open Bionics.  The hand has 9 degrees of freedom (DOF) and 4 degrees of actuation (DOA). It can be controlled from a PC or MAC over USB connection. The Brunel hand can be programmed using the Arduino programming environment which will be familiar to many developers.  The Brunel hand is perfect for anyone that is doing a project with robotic hands or wants a neat, light, and functional robotic hand for use with a humanoid robot. It's an excellent platform for research into prosthetics, object grasping and many human-robot-interaction applications.",
+            "title": "Brunel Hand"
+        }
+    ]
+}

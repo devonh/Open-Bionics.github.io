@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../../../openbionics.ico">
+
+    <title>Beetroot FW - Open Bionics</title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Open Bionics</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hardware <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../hardware/almond/">Almond PCB</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../hardware/chestnut/">Chestnut PCB</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Firmware <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../artichoke/">Artichoke FW</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Beetroot FW</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../software/fingerlib/">FingerLib SW</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">3D Printing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../3Dprinting/ada/">Ada Hand</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../3Dprinting/brunel/">Brunel Hand</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../artichoke/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../software/fingerlib/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/Open-Bionics">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="first-level active"><a href="#open-bionics-beetroot-beta">Open Bionics - Beetroot (BETA)</a></li>
+        
+            <li class="second-level"><a href="#quick-start">Quick Start</a></li>
+            
+                <li class="third-level"><a href="#1-install-arduino">1. Install Arduino</a></li>
+            
+                <li class="third-level"><a href="#2-download-beetroot">2. Download Beetroot</a></li>
+            
+                <li class="third-level"><a href="#3-install-fingerlibh">3. Install FingerLib.h</a></li>
+            
+                <li class="third-level"><a href="#4-install-chesnut-board">4. Install Chesnut board</a></li>
+            
+                <li class="third-level"><a href="#5-upload-to-the-brunel-hand">5. Upload to the Brunel hand</a></li>
+            
+                <li class="third-level"><a href="#6-use-beetroot">6. Use Beetroot</a></li>
+            
+        
+    
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="open-bionics-beetroot-beta">Open Bionics - Beetroot (BETA)</h1>
+<p>Open Bionics Robotics is the Open Source branch of the Open Bionics company.</p>
+<p>Included in this repository:</p>
+<ul>
+<li>Beetroot V1.0 - The firmware release for Open Bionics Brunel hand &amp; Chestnut PCB</li>
+</ul>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="1-install-arduino">1. Install <a href="https://www.arduino.cc">Arduino</a></h3>
+<ul>
+<li>Navigate to the downloads page at <a href="https://www.arduino.cc/en/Main/Software">Arduino.cc</a></li>
+<li>Download the latest version of the IDE (1.8.1 at time of writing)</li>
+<li>Install Arduino</li>
+</ul>
+<h3 id="2-download-beetroot">2. Download <a href="https://github.com/Open-Bionics/Beetroot">Beetroot</a></h3>
+<ul>
+<li>Navigate to the <a href="https://github.com/Open-Bionics/Beetroot">Beetroot repository</a></li>
+<li>Download and extract the zip folder (Clone or download -&gt; Download Zip)</li>
+<li>Open the arduino file at <strong>Beetroot\OpenBionics_Beetroot\OpenBionics_Beetroot\OpenBionics_Beetroot.ino</strong></li>
+</ul>
+<h3 id="3-install-fingerlibh">3. Install <a href="https://github.com/Open-Bionics/FingerLib">FingerLib.h</a></h3>
+<ul>
+<li>Within Arduino, go to <strong>Sketch -&gt; Include Library -&gt; Manage Libraries...</strong></li>
+<li>Search for <strong>FingerLib</strong></li>
+<li>Install <strong>FingerLib</strong></li>
+</ul>
+<h3 id="4-install-chesnut-board">4. Install Chesnut board</h3>
+<ul>
+<li>Within Arduino, go to <strong>File -&gt; Preferences</strong></li>
+<li>Copy the following URL https://open-bionics.github.io/package_openbionics_index.json</li>
+<li>Paste URL in <strong>Additional Boards Manager URLs</strong> box</li>
+<li>Open <strong>Tools -&gt; Board -&gt; Boards Manager..</strong></li>
+<li>Search for <strong>Open Bionics</strong></li>
+<li>Install the latest verison of the <strong>Open Bionics Boards</strong></li>
+<li>Select <strong>Tools -&gt; Board -&gt; Chestnut</strong> to select the Chestnut PCB</li>
+</ul>
+<h3 id="5-upload-to-the-brunel-hand">5. Upload to the Brunel hand</h3>
+<ul>
+<li>Plug the hand into the supplied 12V DC jack</li>
+<li>Plug the USB micro into the hand and the computer</li>
+<li>Within Arduino, select <strong>Tools -&gt; Port -&gt; COM## (Chestnut)</strong> (see <a href="https://www.arduino.cc/en/guide/troubleshooting#toc16">here</a> for more details)</li>
+<li>Select <strong>Sketch -&gt; Upload</strong></li>
+</ul>
+<h3 id="6-use-beetroot">6. Use Beetroot</h3>
+<ul>
+<li>After a successful upload, the hand will be flashing Orange (near the USB port)</li>
+<li>Within Arduino, select <strong>Tools -&gt; Serial Monitor</strong> (the hand should now be flashing Green)</li>
+<li>On the bottom right hand corner of the Serial Monitor window, make sure the dropdown box for the baud rate is set to <strong>115200 baud</strong> and set the other dropdown box to <strong>Carriage Return</strong></li>
+<li>Enter <strong>?</strong> over the serial monitor to view the list of serial instructions</li>
+</ul></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,17 @@
+site_name: Open Bionics
+theme_dir: cinder
+site_favicon: openbionics.ico
+repo_url: "https://github.com/Open-Bionics"
+pages:
+- Getting Started: index.md
+- Hardware: 
+  - Almond PCB: hardware/almond.md
+  - Chestnut PCB: hardware/chestnut.md
+- Firmware:
+  - Artichoke FW: firmware/artichoke.md
+  - Beetroot FW: firmware/beetroot.md
+- Software:
+  - FingerLib SW: software/fingerlib.md
+- 3D Printing:
+  - Ada Hand: 3Dprinting/ada.md
+  - Brunel Hand: 3Dprinting/brunel.md

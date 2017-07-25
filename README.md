@@ -9,4 +9,4 @@ To test the documentation run the following in the docs/ directory:
 To build the site files fun the following in the docs/ directory:
 `mkdocs build --clean`
 
-The documentation site can be accessed [here](https://devonh.github.io/open-bionics.github.io/).
+The documentation site can be accessed [here](https://devonh.github.io/Open-Bionics.github.io/).
